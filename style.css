@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffe0; /* Pastel Yellow */
+    color: #333;
+}
+
+header {
+    background-color: #f0f0c0; /* Lighter Pastel Yellow */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-color: #fffacd; /* Even Lighter Pastel Yellow */
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #dda0dd; /* A contrasting color like light purple */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+footer {
+    background-color: #f0f0c0; /* Lighter Pastel Yellow */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
